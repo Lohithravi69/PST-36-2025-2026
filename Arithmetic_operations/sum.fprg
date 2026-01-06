@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="sum"/>
+        <attribute name="authors" value="lohit"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:03:57 AM"/>
+        <attribute name="created" value="bG9oaXQ7TE9ISVRIOzIwMjYtMDEtMDY7MDk6NDI6NTMgQU07MjI2OQ=="/>
+        <attribute name="edited" value="bG9oaXQ7TE9ISVRIOzIwMjYtMDEtMDY7MTA6MDM6NTcgQU07MTsyMzcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="5"/>
+            <assign variable="b" expression="10"/>
+            <assign variable="b" expression="a/2"/>
+            <output expression="a+b" newline="True"/>
+        </body>
+    </function>
+    <function name="jayaprakash" type="Integer" variable="0">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>

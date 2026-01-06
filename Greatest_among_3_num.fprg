@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Greatest_among_3_num"/>
+        <attribute name="authors" value="lohit"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:43:37 AM"/>
+        <attribute name="created" value="bG9oaXQ7TE9ISVRIOzIwMjYtMDEtMDY7MTA6MTE6MDcgQU07MjI1Ng=="/>
+        <attribute name="edited" value="bG9oaXQ7TE9ISVRIOzIwMjYtMDEtMDY7MTA6NDM6MzcgQU07MTsyMzcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a&gt;b">
+                <then>
+                    <if expression="a&gt;c">
+                        <then>
+                            <output expression="&quot;a is greater&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else>
+                    <if expression="b&gt;a">
+                        <then>
+                            <if expression="b&gt;c">
+                                <then>
+                                    <output expression="&quot;B is greater&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </then>
+                        <else/>
+                    </if>
+                    <output expression="&quot;c is greater&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

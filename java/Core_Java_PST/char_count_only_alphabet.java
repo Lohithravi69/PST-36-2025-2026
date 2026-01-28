@@ -7,8 +7,8 @@ public class char_count_only_alphabet {
 			System.out.println("enter String");
 			String a=scan.next();
 			int count=0;
-			for(char c:a.toCharArray()) {
-			if(c>='a' && c<='z') {
+			for(int i=0;i<a.length();i++) {
+			if(a.charAt(i)>='a' && a.charAt(i)<='z') {
 				count++;}
 			}
 			System.out.println(count);
